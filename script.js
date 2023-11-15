@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
         "images/artwork1.jpg",
         "images/artwork2.jpg",
         "images/artwork3.jpg",
-        "images/artwork4.jpg"
-        "images/artwork5.jpg"
+        "images/artwork4.jpg",
+        "images/artwork5.jpg",
         "images/artwork6.jpg"
         
     ];
