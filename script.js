@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
         
     ];
 
-    // Create HTML elements for each image
     images.forEach(image => {
         const artworkDiv = document.createElement("div");
         artworkDiv.classList.add("artwork");
@@ -22,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         imgElement.alt = "Artwork";
 
         const artistParagraph = document.createElement("p");
-        artistParagraph.textContent = "Artist: Unknown"; // You can replace this with actual artist information
+        artistParagraph.textContent = "Artist: Unknown"; 
 
         artworkDiv.appendChild(imgElement);
         artworkDiv.appendChild(artistParagraph);
